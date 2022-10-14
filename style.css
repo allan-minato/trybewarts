@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -44,14 +50,14 @@ main {
 }
 
 #house {
-  width: 130px;
+  width: 23%;
   border-radius: 5px;
   border-style: none;
   padding: 10px;
 }
 
 body {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .radiofamily {
@@ -62,4 +68,10 @@ body {
 
 .radiocheck {
   display: flex;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: gray;
 }
