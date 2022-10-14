@@ -49,3 +49,8 @@ main {
 body {
     background-color: gray;
 }
+
+.radiofamily {
+    display: flex;
+    flex-direction: column;
+}
