@@ -12,12 +12,9 @@
 
 .trybewarts-login {
   display: flex;
-  /* height: 20px; */
 }
 
-#email,
-#password,
-#btn {
+#email , #password , #btn {
   height: 30px;
   width: 100px;
   border-radius: 5px;
@@ -39,9 +36,7 @@ main {
   height: 500px;
 }
 
-#input-name,
-#input-lastname,
-#input-email {
+#input-name , #input-lastname , #input-email {
   width: 30%;
   padding: 10px;
   margin-top: 10px;
