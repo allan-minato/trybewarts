@@ -1,61 +1,65 @@
 .header {
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
 }
 
 .trybewarts-login {
-    display: flex;
-    /* height: 20px; */
+  display: flex;
+  /* height: 20px; */
 }
 
-#email, #password, #btn {
-    height: 30px;
-    width: 100px;
-    border-radius: 5px;
-    border-style: none;
-    margin: 5px;
+#email,
+#password,
+#btn {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 5px;
 }
 
 main {
-    display: flex;
+  display: flex;
 }
 
 #evaluation-form {
-    display: flex;
-    width: 675px;
-    flex-direction: column;
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
 }
 
-#input-name, #input-lastname, #input-email {
-    width: 30%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-style: none;
+#input-name,
+#input-lastname,
+#input-email {
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
 }
 
 #house {
-    width: 130px;
-    border-radius: 5px;
-    border-style: none;
-    padding: 10px;
+  width: 130px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
 }
 
 body {
-    background-color: gray;
+  background-color: gray;
 }
 
 .radiofamily {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .radiocheck {
-    display: flex;
+  display: flex;
 }
