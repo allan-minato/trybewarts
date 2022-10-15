@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: fantasy;
   line-height: 35px;
+  font-family: Sofia, sans-serif;
+  font-size: 20px;
 }
 
 .header {
@@ -109,4 +110,10 @@ button {
 .logoWarts {
   display: flex;
   padding: 150px;
+}
+
+#evaluation-form h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
 }
