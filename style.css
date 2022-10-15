@@ -2,34 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: fantasy;
+  line-height: 35px;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  height: 70px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  padding: 15px;
 }
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
 }
 
 #email , #password , #btn {
   height: 30px;
-  width: 100px;
+  width: 130px;
   border-radius: 5px;
   border-style: none;
   margin: 5px;
+  text-align: center;
 }
 
 main {
   display: flex;
+  margin-left: 300px;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  padding: 60px;
 }
 
 #trybewarts-forms-logo {
@@ -37,15 +49,15 @@ main {
 }
 
 #input-name , #input-lastname , #input-email {
-  width: 30%;
-  padding: 10px;
-  margin-top: 10px;
+  width: 45%;
+  padding: 5px;
+  margin-bottom: 20px;
   border-radius: 5px;
   border-style: none;
 }
 
 #house {
-  width: 25%;
+  width: 36%;
   border-radius: 5px;
   border-style: none;
   padding: 10px;
@@ -53,20 +65,48 @@ main {
 
 body {
   background-color: lightgray;
+  font-size: 18px;
 }
 
 .radiofamily {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 500px;
+  padding: 5px;
 }
 
 .radiocheck {
   display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 footer {
   text-align: center;
   color: white;
   background-color: gray;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.rate {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgb(88, 31, 153);
+  border-radius: 10px;
+  color: white;
+}
+
+.logoWarts {
+  display: flex;
+  padding: 150px;
 }
